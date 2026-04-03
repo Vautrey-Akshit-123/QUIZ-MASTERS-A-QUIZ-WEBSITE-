@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="icon" href="favicon.ico" type="image/icon" sizes="16x16">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>  QUIZ MASTER  </title>
+   
+ <link rel="stylesheet" href="css/main.css">
+ <link  rel="stylesheet" href="css/font.css">
+ <script src="js/jquery.js" type="text/javascript"></script>
+
+ <link  rel="stylesheet" href="css/bootstrap-theme.min.css"/> 
+  <script src="js/bootstrap.min.js"  type="text/javascript"></script>
+  <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - QUIZ MASTERS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle,violet, #FFA500);
+            color: #333;
+            background-size: 200% 200%;
+            animation: gradientAnimation 10s ease infinite;
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            z-index: 999;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .header-left h1 {
+            margin: 0;
+            font-size: 29px;
+            color: #333;
+        }
+
+        .header-right {
+            display: flex;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 8px 16px;
+            margin-left: 10px;
+            background-color: #FFA500;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #FF8C00;
+        }
+
+        main {
+            padding: 120px 20px 20px;
+        }
+
+        .section-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 40px;
+        }
+
+        .section-container h2 {
+            color: #FFA500;
+            margin-top: 0;
+        }
+
+        .team-member {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .team-member img {
+            width: 180px;
+            height: 200px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+
+        .contact-info {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-info i {
+            margin-right: 10px;
+            color: #FFA500;
+            font-size: 28px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-left">
+                <font size="7" face="arial black" color="orange"><i> QUIZ MASTERS</i></font>
+            </div>
+            <div class="header-right">
+                <a href="index.php" class="btn">Home</a>
+               
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="section-container">
+            <h2>About Us</h2>
+            <p>We are an online quiz platform dedicated to providing engaging and educational quizzes on various topics. Our mission is to make learning fun and accessible to everyone.</p>
+        </div>
+
+        <div class="section-container">
+            <h2>OUR TEAM</h2>
+            <div class="team-member">
+                <img src="image/new1.jpg" alt="Team Member 1">
+                <div>
+                    <h3>V.AKSHIT</h3>
+                    <p>CEO and Founder</p>
+                    <p>Akshay is the driving force behind our online quiz platform, with a passion for education and technology.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="image/new1.jpg" alt="Team Member 2">
+                <div>
+                    <h3>K.VAMSHI</h3>
+                    <p>Content Manager</p>
+                    <p>Vamshi oversees the creation and curation of our engaging quiz content, ensuring a diverse and educational experience.</p>
+                </div>
+            </div>
+            <div class="team-member">
+                <img src="image/new1.jpg" alt="Team Member 3">
+                <div>
+                    <h3>T.ARUN</h3>
+                    <p>Technical Lead</p>
+                    <p>Arun leads our technical team, ensuring a smooth and seamless user experience on our platform.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-container">
+            <h2>CONTACT US</h2>
+            <div class="contact-info">
+                <i class="fas fa-phone-alt"></i> +91 123-456-7890
+            </div>
+            <div class="contact-info">
+                <i class="fas fa-envelope"></i> lfdc@onlinequiz.com
+            </div>
+            <div class="contact-info">
+                <i class="fas fa-map-marker-alt"></i>LITTLE FLOWER DEGREE COLLEGE,UPPAL.
+            </div>
+        </div>
+    </main>
+</body>
+</html>
